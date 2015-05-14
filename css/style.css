@@ -1,0 +1,42 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand-top {
+  color: #fff;
+}
+
+.jumbotron {
+  background-image: url(../images/logo.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.main-content {
+  padding-top: 8em;
+}
+
+.navbar-brand-bottom {
+  color: #fff;
+}
+
+.navbar-brand-bottom a:link, a:active, a:visited {
+  color: #fff;
+}
+
+.navbar-brand-bottom a:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand-bottom p {
+  padding-top: 1em;
+}
